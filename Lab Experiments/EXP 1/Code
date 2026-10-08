@@ -1,1 +1,13 @@
+#include <stdio.h>
+int main() {
+    int a;
+    float b;
 
+    printf("Enter integer: ");
+    scanf("%d", &a);
+
+    b = (float)a;
+
+    printf("Float = %.2f", b);
+    return 0;
+}
